@@ -11,4 +11,4 @@ const numberOdd = () => {
   }
   console.log(odd);
 }
-console.log(numberOdd());
+numberOdd();

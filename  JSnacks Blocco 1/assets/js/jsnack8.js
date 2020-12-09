@@ -11,4 +11,4 @@ const number = () => {
   }
   console.log(`la somma di tutte le cifre che compongono il numero è ${sum}`);
 }
-console.log(number());
+number();

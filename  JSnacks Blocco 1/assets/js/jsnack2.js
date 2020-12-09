@@ -6,11 +6,11 @@ let wordTwo = prompt("insert another word");
 
 const word = (a,b) => {
   if(a.length < b.length){
-    console.log(a,b);
+    return `La parola più corta è ${a} mentre la parola più lunga è ${b}`;
   }else if(a === b) {
-    console.log(`equal word ${a} ${b}`);
+    return `${a} equal word ${b}`;
   }else{
-    console.log(b,a);
+  return `La parola più corta è ${b} mentre la parola più lunga è ${a}`;
   }
 }
 console.log(word(wordOne, wordTwo));

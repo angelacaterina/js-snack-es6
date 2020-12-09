@@ -12,4 +12,4 @@ const calcMath = () => {
   console.log(`La somma dei primi 10 numeri è ${sum}`);
   console.log(`La media dei primi 10 numeri è ${average}`);
 }
-console.log(calcMath());
+calcMath();

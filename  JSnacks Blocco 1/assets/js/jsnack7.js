@@ -6,4 +6,4 @@ const square = () => {
     console.log(numberSquare);
   }
 }
-console.log(square());
+square();
