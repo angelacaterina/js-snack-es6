@@ -2,8 +2,8 @@
 //  Crea 10 oggetti che rappresentano una zucchina, indicando per ognuna varietà, peso e lunghezza. Calcola quanto pesano tutte le zucchine.
 class Zucchina {
   constructor(variety, peso, lunghezza) {
-    this.variety = variety,
-    this.peso = peso,
+    this.variety = variety;
+    this.peso = peso;
     this.lunghezza = lunghezza
   }
 }
@@ -22,10 +22,7 @@ let zucchine = [
 ];
 
 let somma = 0;
-const sum = () =>{
-  zucchine.forEach(function(item){
-    somma += item.peso;
-  });
-  console.log("Il peso complessivo delle 10 zucchine è: ", somma, "g.");
-}
-sum();
+zucchine.forEach((item) => {
+  somma += item.peso;
+});
+console.log("Il peso complessivo delle 10 zucchine è: ", somma, "g.");
