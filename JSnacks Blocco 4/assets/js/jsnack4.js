@@ -26,11 +26,8 @@ let squadre = [
 
 // JSnack 4B
 //  Generare numeri random al posto degli 0 nelle proprietà: punti fatti e falli subiti
-const pointsAndFouls = () => {
-  squadre.forEach(function(item){
-    item.pointsMade = Math.floor(Math.random()* 10);
-    item.foulsSuffered = Math.floor(Math.random()* 10);
-  });
-  console.log(`I punti fatti e falli subiti sono stati compitati in modo random`, squadre);
-}
-pointsAndFouls();
+squadre.forEach((item)=>{
+  item.pointsMade = Math.floor(Math.random()* 10);
+  item.foulsSuffered = Math.floor(Math.random()* 10);
+});
+console.log(`I punti fatti e falli subiti sono stati compitati in modo random`, squadre);
